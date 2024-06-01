@@ -1,12 +1,15 @@
 package org.gfg.JBDL_70_MINOR1.controller;
 
-import ch.qos.logback.core.util.StringUtil;
 import jakarta.validation.Valid;
 import org.gfg.JBDL_70_MINOR1.dto.BookRequest;
 import org.gfg.JBDL_70_MINOR1.model.Book;
+import org.gfg.JBDL_70_MINOR1.model.BookFilterType;
+import org.gfg.JBDL_70_MINOR1.model.Operator;
 import org.gfg.JBDL_70_MINOR1.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/book")
@@ -31,6 +34,15 @@ public class BookController {
 
     }
 
+    @GetMapping("/filter")
+    public List<Book> filter(@RequestParam("filterBy") BookFilterType bookFilterType,
+                                  @RequestParam("operator")Operator operator,
+                                  @RequestParam("value") String value){
+
+        return bookService.filter(bookFilterType, operator, value);
+    }
+
+
 
 
 }
@@ -41,3 +53,5 @@ public class BookController {
 // kathy -> introduction to java
 // kathy -> advanced Java
 
+
+// curd
