@@ -1,6 +1,7 @@
 package org.gfg.JBDL_70_MINOR1.service;
 
 import jakarta.transaction.Transactional;
+import lombok.Setter;
 import org.gfg.JBDL_70_MINOR1.dto.TxnRequest;
 import org.gfg.JBDL_70_MINOR1.exception.TxnException;
 import org.gfg.JBDL_70_MINOR1.model.*;
