@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6132098-fc2e-4675-8787-e06d8bff5275" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/gfg/JBDL_70_MINOR1/controller/TestBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/gfg/JBDL_70_MINOR1/repository/AuthorRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/gfg/JBDL_70_MINOR1/service/TestTxnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/exception/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/minor1Configuration/CommonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/minor1Configuration/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/minor1Configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/UserCacheRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/Jbdl70Minor1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/Jbdl70Minor1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/dto/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/dto/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/exception/ControllerExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/exception/ControllerExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/model/Txn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/model/Txn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/TxnRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/TxnRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/TxnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/TxnService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/dto/UserRequest$UserRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/dto/UserRequest$UserRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/dto/UserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/dto/UserRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gfg/JBDL_70_MINOR1/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,18 +195,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/controller/UserController.java</url>
-          <line>33</line>
+          <line>38</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java</url>
-          <line>36</line>
+          <line>57</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/TxnService.java</url>
@@ -205,7 +215,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java</url>
-          <line>57</line>
+          <line>77</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -225,7 +235,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/gfg/JBDL_70_MINOR1/service/TestTxnService.java</url>
-          <line>57</line>
+          <line>58</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -240,12 +250,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/gfg/JBDL_70_MINOR1/service/TestTxnService.java</url>
-          <line>79</line>
+          <line>80</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/gfg/JBDL_70_MINOR1/service/TestTxnService.java</url>
-          <line>91</line>
+          <line>92</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -262,6 +272,61 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/gfg/JBDL_70_MINOR1/controller/TestBookController.java</url>
           <line>43</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/exception/ControllerExceptionAdvice.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/UserCacheRepository.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/UserCacheRepository.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/UserCacheRepository.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/repository/UserCacheRepository.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/3.3.0/spring-data-redis-3.3.0.jar!/org/springframework/data/redis/core/RedisTemplate.class</url>
+          <line>720</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/UserService.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/BookService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gfg/JBDL_70_MINOR1/service/BookService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

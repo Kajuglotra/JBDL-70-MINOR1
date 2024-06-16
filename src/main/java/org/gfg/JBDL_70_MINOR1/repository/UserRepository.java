@@ -14,4 +14,5 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     List<User> findUsersByNativeQuery(@Param("query") String q);
 
     User findByPhoneNoAndUserType(String phoneNo, UserType type);
+    User findByEmail(String email);
 }

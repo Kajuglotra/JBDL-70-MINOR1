@@ -1,5 +1,6 @@
 package org.gfg.JBDL_70_MINOR1.controller;
 
+import jakarta.validation.Valid;
 import org.gfg.JBDL_70_MINOR1.dto.UserRequest;
 import org.gfg.JBDL_70_MINOR1.model.User;
 import org.gfg.JBDL_70_MINOR1.service.UserService;
@@ -16,14 +17,18 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/addStudent")
-    public User addStudent(@RequestBody UserRequest userRequest){
+    public User addStudent(@RequestBody @Valid UserRequest userRequest){
        return userService.addStudent(userRequest);
-
     }
 
     @PostMapping("/addAdmin")
-    public User addAdmin(@RequestBody UserRequest userRequest ){
-        return null;
+    public User addAdmin(@RequestBody @Valid UserRequest userRequest ){
+        return userService.addAdmin(userRequest);
+    }
+
+    @GetMapping("/getStudent")
+    public User addStudent(){
+        return  null;
     }
 
     @GetMapping("/filter")
